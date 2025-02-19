@@ -737,7 +737,6 @@
   <block id="1222cf807490df82fd7e0146eb6798c1" category="paragraph">宣布维护窗口后，目标节点的配对节点将执行接管。维护完成后，将启动交还。交还后， HA 对应恢复为运行状况良好的状态。如果未发生这种情况，请联系 NetApp 支持部门以获得帮助。请注意，维护事件一次针对 HA 对中的一个虚拟机，通常这两个节点都是在相对较短的时间内针对的。</block>
   <block id="1355c3042f61af06b4a61506de6e8ad1" category="paragraph">使用 Cloud Volumes ONTAP 非持续可用的 CIFS 共享的 CIFS/SMB 客户端将在发生接管时以及将会话所使用的聚合交还给聚合的主节点时丢失会话。这是 CIFS/SMB 协议本身施加的限制。客户可能希望使用第三方产品来避免因接管和交还而可能出现的问题。要获得更多帮助，请联系 NetApp 支持部门。</block>
   <block id="8e47e9575e2300fd877f61160058d7c0" category="sidebar">本发行说明介绍了Cloud Volumes ONTAP 9.12.09的新增功能、限制和已知问题。</block>
-  <block id="3aecd779578c661d895e83c1e9e7274c" category="sidebar">Cloud Volumes ONTAP 9.12.09发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">开始使用</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="8efc36afc2e7202a9c9bda00b8e8a75d" category="sidebar">许可概述</block>
@@ -751,7 +750,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">发行说明主页</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">已知限制</block>
@@ -760,4 +758,7 @@
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Azure 中的限制</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Google Cloud 中的限制</block>
   <block id="c3320c3457dfdfbada4a611a68854ea6" category="cell">不支持</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">使用Azure VM扩展的限制</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP不支持在部署中使用Azure虚拟机(VM)扩展和VM应用程序。在Azure中将Cloud Volumes ONTAP与VM扩展结合使用会导致操作延迟、NetApp建议避免这些延迟。</block>
+  <block id="30f90a351fdc853ffe232763d3200b8b" category="sidebar">Cloud Volumes ONTAP 9.15.0发行说明</block>
 </blocks>
